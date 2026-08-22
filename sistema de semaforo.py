@@ -15,11 +15,11 @@ if corSema == 1:
 
     totalMulta += 1
 
-elif corSema == 3:
-    print("você recebeu um aviso por passar no semaforo amarelo.")
-
 elif corSema == 2:
     print("você passou pelo semaforo verde, tudo certo.")
+
+elif corSema == 3:
+    print("você recebeu um aviso por passar no semaforo amarelo.")
 
 print("você está a quantos km/hr?")
 velocidade = float(input())

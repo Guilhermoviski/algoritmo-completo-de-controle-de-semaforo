@@ -61,6 +61,7 @@ elif limitPorcen >= 20 and limitPorcen <= 49:
 elif limitPorcen >= 50:
     print(f"você foi multado em 5 pontos e 880,41 reais por passar{limitPorcen: .0f}% acima do limite da via.")
 
+    pontoCNH += 5
     totalValorMulta += 880.41
     totalMulta += 1
 
